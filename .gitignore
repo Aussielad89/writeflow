@@ -1,1 +1,24 @@
-IyBEYXRhYmFzZQouZGIKKi5kYgoqLmRiLWpvdXJuYWwKZGIuc3FsaXRlCm5vZGVfbW9kdWxlcy8KLm5leHQvCi52ZXJjZWwvCgojIExvZ3MKKi5sb2cKbnBtLWRlYnVnLmxvZyoKCiMgT1MKLkRTX1N0b3JlClRodW1icy5kYgoKIyBFbnYKLmVudi5sb2NhbAouZW52Ci5lbnYqLmxvY2FsCg==
+# Database
+db.sqlite
+*.db
+*.db-journal
+node_modules/
+.next/
+.vercel/
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Env
+.env.local
+.env
+.env*.local
+
+# Build artifacts
+package-lock.json
+postcss.config.mjs
